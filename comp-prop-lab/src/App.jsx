@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-    <RecipeContainer key={recipes.name} />
+    <RecipeContainer recipes={recipes} />
     </>
   )
 }

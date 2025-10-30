@@ -1,3 +1,7 @@
+import bananaImg from "./assets/bananabread.webp"
+import pumpkinImg from "./assets/pumpkinbread.webp"
+import zucchiniImg from "./assets/zucbread.webp"
+import orangeImg from "./assets/orangebread.webp"
 //Note: These are family recipes from the professor who wrote this lab, feel free to make them!
 export const recipes = [
   {
@@ -5,7 +9,7 @@ export const recipes = [
     ingredients: [
       "¼ cup shortening",
       "1 cup sugar",
-      "2 eggs",
+      "2 eggs", 
       "2 cups Bisquick",
       "1 cup nuts (optional)",
       "1 cup mashed bananas (about 2-3 bananas)",
@@ -21,6 +25,7 @@ export const recipes = [
       "Bake for 50-60 minutes or until a toothpick inserted into the center comes out clean.",
       "Let the bread cool in the pan for 10 minutes, then remove from the pan and transfer to a wire rack to cool completely.",
     ],
+    image: bananaImg
   },
   {
     name: "Pumpkin Bread",
@@ -62,6 +67,7 @@ export const recipes = [
         "Let the glaze cool slightly before drizzling it over the cooled pumpkin bread.",
       ],
     },
+    image: pumpkinImg
   },
   {
     name: "Orange and Lemon Nut Bread",
@@ -96,6 +102,7 @@ export const recipes = [
         "Let the glaze cool slightly before drizzling over the cooled orange and lemon nut bread.",
       ],
     },
+    image: orangeImg
   },
   {
     name: "Zucchini Bread",
@@ -122,5 +129,6 @@ export const recipes = [
       "Bake for 1 hour or until a toothpick inserted into the center comes out clean.",
       "Let the bread cool in the pan for 10 minutes before transferring to a wire rack to cool completely.",
     ],
+    image: zucchiniImg
   },
 ];
